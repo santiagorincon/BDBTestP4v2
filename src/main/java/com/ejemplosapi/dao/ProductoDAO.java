@@ -29,6 +29,17 @@ public class ProductoDAO {
         lista.add(producto5);
         
         return lista;
-        
+    }
+    
+    public static Producto getProducto(int id){
+        Producto producto = new Producto();
+        producto.setId(id);
+        List<Producto> lista = getProductos();
+        if (lista.contains(producto)){
+            for(Producto obj: lista)
+                if (obj.getId()==id)
+                    return obj;
+        }
+        return null;
     }
 }
