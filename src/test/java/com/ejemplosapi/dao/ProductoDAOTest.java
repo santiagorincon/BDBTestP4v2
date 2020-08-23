@@ -44,7 +44,7 @@ public class ProductoDAOTest {
      */
     @Test
     public void testGetProductos() {
-        int expResult = 5;
+        int expResult = 6;
         List<Producto> lista = ProductoDAO.getProductos();
         int result = lista.size();
         assertEquals(expResult, result);
