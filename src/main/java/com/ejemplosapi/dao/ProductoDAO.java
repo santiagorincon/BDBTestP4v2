@@ -19,7 +19,7 @@ public class ProductoDAO {
         Producto producto1 = new Producto(1,"HARINA",500);
         Producto producto2 = new Producto(2,"ARROZ",600);
         Producto producto3 = new Producto(3,"PASTA",700);
-        Producto producto4 = new Producto(4,"ACEITE",800);
+        Producto producto4 = new Producto(4,"ACEITE",900);
         Producto producto5 = new Producto(5,"ATUN",400);
     
         lista.add(producto1);
