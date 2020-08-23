@@ -1,0 +1,4 @@
+com\ejemplosapi\modelo\Producto.class
+com\ejemplosapi\dao\ProductoDAO.class
+com\ejemplosapi\servicios\ProductoServicio.class
+com\ejemplosapi\servicios\Configuracion.class
